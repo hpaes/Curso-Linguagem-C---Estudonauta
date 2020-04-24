@@ -29,7 +29,7 @@ int main(void)
     printf("NAME\t\tGENDER  GRADE\n");
     for (int x = 0; x < 3; x++)
     {
-        printf("%s\t\t    %s      %s\n", cNames[x], cGender[x], cGrades[x]);
+        printf("%-15s %5s %5s\n", cNames[x], cGender[x], cGrades[x]);
     }
     printf("----------------------------------\n");
 
