@@ -11,7 +11,7 @@ int main(void)
     scanf("%s", cName);
     printf("\nHow old are you? ");
     scanf(" %d", &iAge);
-    printf("\nWhat\'s your weight? ");
+    printf("\nWhat\'s your weight?(Kg) ");
     scanf(" %f", &fWeight);
 
     printf("\nNice to meet you, %s. You are %d years old and weights %1.1f Kg, is that correct?\n", cName, iAge, fWeight);
