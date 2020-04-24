@@ -34,4 +34,8 @@ int main(void)
 
     return 0;
 
+    free(cGender);
+    free(cGrades);
+    free(cNames);
+
 }   // end main
