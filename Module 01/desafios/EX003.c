@@ -2,19 +2,19 @@
 
 int main(void)
 {
-    // declaring variables
+    // declarando variáveis
     char cName[30] = {0};
     float fWeight = 0.0;
     int iAge = 0;
 
-    printf("What\'s your name? ");
+    printf("Qual é o seu nome? ");
     scanf("%s", cName);
-    printf("\nHow old are you? ");
+    printf("\nQuantos anos você tem? ");
     scanf(" %d", &iAge);
-    printf("\nWhat\'s your weight?(Kg) ");
+    printf("\nQual é o seu peso?(Kg) ");
     scanf(" %f", &fWeight);
 
-    printf("\nNice to meet you, %s. You are %d years old and weights %1.1f Kg, is that correct?\n", cName, iAge, fWeight);
+    printf("\nPrazer em conhecê-lo, %s. Você tem %d anos e pesa %1.1f Kg, correto?\n", cName, iAge, fWeight);
 
     return 0;
 
