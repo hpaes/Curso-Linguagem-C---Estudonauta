@@ -31,11 +31,12 @@ int main(void)
     {
         printf("%s\t\t    %s      %s\n", cNames[x], cGender[x], cGrades[x]);
     }
+    printf("----------------------------------\n");
 
     return 0;
 
-    free(cGender);
-    free(cGrades);
-    free(cNames);
+    free(*cGender);
+    free(*cGrades);
+    free(*cNames);
 
 }   // end main
