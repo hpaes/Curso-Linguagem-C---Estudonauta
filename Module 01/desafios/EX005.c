@@ -15,10 +15,11 @@ int main(void)
 
     printf("\n<<< EX005 - Será que você acerta? >>>\n\n\n");
     printf("Vou pensar em um número entre 1 e 5. Tente advinhar!\n");
-    
+    printf("Você tem 3 chances!\n");
 
     while (iTries != 3)
     {   
+        printf("\nTentativa: %d\n", iTries + 1);
         printf("Qual é o seu palpite? ");
         scanf(" %d", &iGuess);
 
