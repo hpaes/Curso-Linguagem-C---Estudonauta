@@ -10,7 +10,6 @@ int main(void)
     scanf("%d", &iNum);
     printf("\nAnalisando o número %d, seu dobro é %d e sua terça parte é %.2f.\n",
     iNum, iNum * 2, (float) iNum / 3);
-
     return 0;
 
 }   // end main
