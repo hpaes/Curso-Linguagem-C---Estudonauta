@@ -14,7 +14,7 @@ int main(void)
     {
         fDesc = fTotal * 0.1;
 
-        printf("\n=======ATENÇÃO=======\n");
+        printf("\n======= ATENÇÃO =======\n");
         printf("Por fazer mais de R$500 em compras, você vai receber R$%.2f de desconto\n", fDesc);
         printf("O valor a ser pago é de R$%.2f! Volte sempre!\n", fTotal - fDesc);
         printf("-------------------------------------------------------------------------\n");
