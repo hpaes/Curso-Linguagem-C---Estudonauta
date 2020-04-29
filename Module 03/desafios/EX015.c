@@ -18,7 +18,7 @@ int main(void)
         printf("Parabéns!! Sua média final foi %.2f!\n", result);
         printf("-------------------------------------\n");
     }
-    else
+    if ( result < 7.0)
     {
         printf("\n-------------------------------------\n");
         printf("Que pena, sua média foi %.2f, você foi reprovado!\n", result);
