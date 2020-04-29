@@ -10,10 +10,8 @@ int main(void)
     {
         printf("\nVocê foi multado!\n");
     }
-    else
-    {
-        printf("\nSe beber não dirija!\n");
-    }
+    
+    printf("\nSe beber não dirija!\n");
 
     return 0;
 }   // end main
