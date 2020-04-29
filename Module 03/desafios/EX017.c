@@ -9,18 +9,30 @@ int main(void)
     data = localtime(&t);
     int iBday = 0;
     int y = data->tm_year + 1900;
-    int iResult = 0;
+    int iAge = 0;
 
     printf("\n<<<  EX017 - Fila de Banco  >>>\n\n");
     printf("Em que ano você nasceu? ");
     scanf(" %i", &iBday);
 
-    iResult = y - iBday;
+    iAge = y - iBday;
 
-    printf("\n-------------------------------------------\n");
-    printf("Você tem %i anos, certo?\n", iResult);
-    printf("Seja bem-vindo(a) ao Banco Estudonauta!\n");
-    printf("-------------------------------------------\n");
+    if (iAge < 80)
+    {
+        printf("\n-------------------------------------------\n");
+        printf("Você tem %i anos, certo?\n", iAge);
+        printf("Seja bem-vindo(a) ao Banco Estudonauta!\n");
+        printf("-------------------------------------------\n");
 
+    }
+
+    if (iAge >= 80)
+    {
+        printf("\n-------------------------------------------\n");
+        printf("Você tem %i anos, certo?\n", iAge);
+        printf("Seja bem-vindo(a) ao Banco Estudonauta!\n");
+        printf("\n==== ATENÇÃO! DIRIJA-SE PARA A FILA PREFERENCIAL ====\n");
+        printf("-------------------------------------------\n");
+    }
     return 0;
 }   // end main
