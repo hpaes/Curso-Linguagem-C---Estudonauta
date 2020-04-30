@@ -10,19 +10,19 @@ int main(void)
 
     if (n1 > n2)
     {
-        printf("\nO maior valor é %d\n", n1);
+        printf("\nO primeiro valor é maior.\n");
         return 0;
     }
     else
     {
         if (n1 < n2)
         {
-            printf("\nO maior número é %d\n", n2);
+            printf("\nO segundo valor é maior.\n");
             return 0;
         }
         else
         {
-            printf("\nO número digitados são iguais\n");
+            printf("\nOs dois valores são iguais\n");
             return 0;
         }   
 
