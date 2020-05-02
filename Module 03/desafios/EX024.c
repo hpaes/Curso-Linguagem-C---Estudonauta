@@ -14,15 +14,17 @@ int main(void)
     if (n1 > n2)
     {
         printf("\nOs números em ordem crescente são %d e %d.\n", n2, n1);
+        return 0;
     }
     else if (n2 > n1)
     {
         printf("\nOs números em ordem crescente são %d e %d.\n", n1, n2);
+        return 0;
     }
     else
     {
         printf("\nOs números digitados são iguais.\n");
-    }
+        return 0;
+    }   // end if
     
-    return 0;
 }   // end main
